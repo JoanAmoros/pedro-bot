@@ -39,4 +39,15 @@ Al usarse, aparecerá un desplegable con el nombre de todos los personajes regis
 
 El quinto botón (🔄) sirve para actualizar la información de la raid.  
 Normalmente la raid se actualiza automáticamente cuando un usuario registra o borra su participación.  
-El único caso en que será necesario actualizar la raid manualmente, es cuando un usuario borra un personaje que estaba registrado en una raid.
+El único caso en que será necesario actualizar la raid manualmente, es cuando un usuario borra un personaje que estaba registrado en una raid.  
+
+## Cómo instalar el Bot
+
+- Crea una aplicación y bot en [Discord Developer Portal](https://discord.com/developers/applications)
+- Sube los emojis en la carpeta **src/assets** a tu servidor de discord dónde vayas a usar el Bot. Si vas a usarlo en más de un servidor, basta con hacerlo en unos de ellos.
+- Crea una copia del archivo **config.json.example** en la misma carpeta y llámalo **config.json**
+- Pon tu **token** y **application id** que obtuviste en el paso 1 en los campos **token** y **client_id**, respectivamente.
+- Consigue las IDs de los emojis y ponlas en los campos restantes.
+- Necesitarás tener instalado [node.js](https://nodejs.org/).
+- Una vez instalado, ejecuta el comando ``npm install`` dentro de la carpeta raíz del proyecto.
+- Para ejecutar el Bot, usa el comando ``npm run bot``. El bot seguirá activo hasta que cierres el terminal o uses Ctrl+C.
