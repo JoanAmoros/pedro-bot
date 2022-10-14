@@ -1,0 +1,17 @@
+{
+  "name": "wow-raid-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "bot": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Joan Amoros",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.2"
+  }
+}
